@@ -58,6 +58,21 @@ namespace CalculatorWPF
                 case "/":
                     ResultTxtb.Text = (result / Double.Parse(ResultTxtb.Text)).ToString();
                     break;
+                case "%":
+                    ResultTxtb.Text = ((result * Double.Parse(ResultTxtb.Text)) / 100).ToString();
+                    break;
+                case "1/x":
+                    ResultTxtb.Text = (1 / Double.Parse(ResultTxtb.Text)).ToString();
+                    break;
+                case "x^2":
+                    ResultTxtb.Text = (Double.Parse(ResultTxtb.Text) * Double.Parse(ResultTxtb.Text)).ToString();
+                    break;
+                case "sqrt(x)":
+                    ResultTxtb.Text = (Math.Sqrt(Double.Parse(ResultTxtb.Text))).ToString();
+                    break;
+                case "+/-":
+                    ResultTxtb.Text = (-1 * (Double.Parse(ResultTxtb.Text))).ToString();
+                    break;
                 default:
                     break;
             }
@@ -82,6 +97,18 @@ namespace CalculatorWPF
                     break;
                 case "/":
                     ResultTxtb.Text = (result / Double.Parse(ResultTxtb.Text)).ToString();
+                    break;
+                case "%":
+                    ResultTxtb.Text = ((result * Double.Parse(ResultTxtb.Text)) / 100).ToString();
+                    break;
+                case "1/x":
+                    ResultTxtb.Text = (1 / Double.Parse(ResultTxtb.Text)).ToString();
+                    break;
+                case "x^2":
+                    ResultTxtb.Text = (Double.Parse(ResultTxtb.Text) * Double.Parse(ResultTxtb.Text)).ToString();
+                    break;
+                case "sqrt(x)":
+                    ResultTxtb.Text = (Math.Sqrt(Double.Parse(ResultTxtb.Text))).ToString();
                     break;
                 default:
                     break;

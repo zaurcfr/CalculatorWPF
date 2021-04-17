@@ -24,30 +24,30 @@
         
         <Border Grid.Row="1" BorderBrush="Black" BorderThickness="3">
             <UniformGrid Rows="6" Columns="4">
-                <Button Content="%" Background="LightGray"></Button>
-                <Button Content="CE" Background="LightGray" Click="ClickOnClearBtn"></Button>
-                <Button Content="C" Background="LightGray" Click="ClickOnClearBtn"></Button>
-                <Button Content="⌫" Background="LightGray" Click="ClickOnDeleteBtn"></Button>
-                <Button Content="1/x" Background="LightGray"></Button>
-                <Button Content="x^2" Background="LightGray"></Button>
-                <Button Content="sqrt(x)" Background="LightGray"></Button>
-                <Button Content="/" Background="LightGray" Click="ClickOnOperations"></Button>
-                <Button Content="7" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="8" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="9" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="*" Background="LightGray" Click="ClickOnOperations"></Button>
-                <Button Content="4" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="5" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="6" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="-" Background="LightGray" Click="ClickOnOperations"></Button>
-                <Button Content="1" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="2" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="3" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="+" Background="LightGray" Click="ClickOnOperations"></Button>
-                <Button Content="+/-" Background="LightGray"></Button>
-                <Button Content="0" Background="White" Click="ClickOnNumbers"></Button>
-                <Button Content="." Background="LightGray"></Button>
-                <Button Content="=" Background="LightGray" Click="ClickOnEqualBtn" ></Button>
+                <Button Content="%" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="CE" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnClearBtn"></Button>
+                <Button Content="C" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnClearBtn"></Button>
+                <Button Content="⌫" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnDeleteBtn"></Button>
+                <Button Content="1/x" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="x^2" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="sqrt(x)" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="/" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="7" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="8" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="9" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="*" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="4" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="5" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="6" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="-" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="1" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="2" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="3" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="+" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="+/-" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnOperations"></Button>
+                <Button Content="0" Background="White" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnNumbers"></Button>
+                <Button Content="." Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold"></Button>
+                <Button Content="=" Background="LightGray" FontFamily="Segoe UI" FontSize="24" FontWeight="SemiBold" Click="ClickOnEqualBtn" ></Button>
             </UniformGrid>
         </Border>
 
